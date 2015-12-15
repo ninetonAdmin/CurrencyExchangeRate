@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>97A6E275-0158-4596-B364-8FD1C05B1C1D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CurrencyExchangeRate</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7dbb4b49-a7c2-46f7-a510-dcd4b12d573f++3918</key>
+		<string>svn://nineton.cn/nineton/CurrencyExchangeRate</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CurrencyExchangeRate.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7dbb4b49-a7c2-46f7-a510-dcd4b12d573f++3918</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>7dbb4b49-a7c2-46f7-a510-dcd4b12d573f++3918</key>
+		<string>svn://nineton.cn/nineton</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>svn://nineton.cn/nineton/CurrencyExchangeRate/CurrencyExchangeRate.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7dbb4b49-a7c2-46f7-a510-dcd4b12d573f++3918</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7dbb4b49-a7c2-46f7-a510-dcd4b12d573f++3918</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CurrencyExchangeRate</string>
+		</dict>
+	</array>
+</dict>
+</plist>

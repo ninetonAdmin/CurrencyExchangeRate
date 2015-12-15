@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7dbb4b49-a7c2-46f7-a510-dcd4b12d573f++3918",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "7dbb4b49-a7c2-46f7-a510-dcd4b12d573f++3918" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7dbb4b49-a7c2-46f7-a510-dcd4b12d573f++3918" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "97A6E275-0158-4596-B364-8FD1C05B1C1D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7dbb4b49-a7c2-46f7-a510-dcd4b12d573f++3918" : "CurrencyExchangeRate"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CurrencyExchangeRate",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CurrencyExchangeRate.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/nineton.cn\/nineton",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7dbb4b49-a7c2-46f7-a510-dcd4b12d573f++3918"
+    }
+  ]
+}

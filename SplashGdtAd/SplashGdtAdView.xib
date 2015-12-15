@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SplashGdtAdView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="game_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="8YA-so-gyk">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="game_menu.png" translatesAutoresizingMaskIntoConstraints="NO" id="s95-IJ-JZe">
+                    <rect key="frame" x="25" y="20" width="325" height="130"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="130" id="5aS-Md-dkB"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="73K-7o-2Ht">
+                    <rect key="frame" x="113" y="140" width="150" height="38"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="game_titlebg.png" translatesAutoresizingMaskIntoConstraints="NO" id="c2L-dA-YMY">
+                            <rect key="frame" x="0.0" y="0.0" width="150" height="38"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="放开那三国" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjS-cY-alb">
+                            <rect key="frame" x="5" y="0.0" width="140" height="38"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="4TE-xL-JaU"/>
+                        <constraint firstItem="c2L-dA-YMY" firstAttribute="top" secondItem="73K-7o-2Ht" secondAttribute="top" id="Hrh-g1-gUR"/>
+                        <constraint firstItem="tjS-cY-alb" firstAttribute="top" secondItem="73K-7o-2Ht" secondAttribute="top" id="NEb-ka-VLl"/>
+                        <constraint firstItem="c2L-dA-YMY" firstAttribute="leading" secondItem="73K-7o-2Ht" secondAttribute="leading" id="XDb-Tz-VgJ"/>
+                        <constraint firstAttribute="height" constant="38" id="Y8C-tY-2kl"/>
+                        <constraint firstAttribute="trailing" secondItem="c2L-dA-YMY" secondAttribute="trailing" id="cCi-e7-o2t"/>
+                        <constraint firstAttribute="bottom" secondItem="tjS-cY-alb" secondAttribute="bottom" id="kpm-QN-cDl"/>
+                        <constraint firstAttribute="bottom" secondItem="c2L-dA-YMY" secondAttribute="bottom" id="neO-YY-LzK"/>
+                        <constraint firstItem="tjS-cY-alb" firstAttribute="leading" secondItem="73K-7o-2Ht" secondAttribute="leading" constant="5" id="qOr-Y9-MIw"/>
+                        <constraint firstAttribute="trailing" secondItem="tjS-cY-alb" secondAttribute="trailing" constant="5" id="qbH-cH-UIQ"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="game_zhishu.png" translatesAutoresizingMaskIntoConstraints="NO" id="EKh-6e-kYd">
+                    <rect key="frame" x="67" y="188" width="240" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="8xA-4l-XzT"/>
+                        <constraint firstAttribute="height" constant="25" id="ytV-6t-GFB"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="b1j-sY-Ou2">
+                    <rect key="frame" x="25" y="254" width="325" height="182"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="182" id="UND-7M-Hub"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="game_xiangkuang.png" translatesAutoresizingMaskIntoConstraints="NO" id="x5L-7J-jCa">
+                    <rect key="frame" x="0.0" y="228" width="375" height="211"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="211" id="Kvx-uM-VQA"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="game_download.png" translatesAutoresizingMaskIntoConstraints="NO" id="O7j-9I-qSg">
+                    <rect key="frame" x="107" y="459" width="160" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="160" id="hS3-YL-u0Z"/>
+                        <constraint firstAttribute="height" constant="45" id="nIq-F3-CGp"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="x5L-7J-jCa" secondAttribute="trailing" id="1gn-kc-taa"/>
+                <constraint firstAttribute="trailing" secondItem="8YA-so-gyk" secondAttribute="trailing" id="4RG-dR-z2j"/>
+                <constraint firstItem="8YA-so-gyk" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="9Ws-Vd-NJj"/>
+                <constraint firstItem="x5L-7J-jCa" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="E0t-7K-Rkl"/>
+                <constraint firstAttribute="bottom" secondItem="8YA-so-gyk" secondAttribute="bottom" id="FBj-Ct-kn1"/>
+                <constraint firstAttribute="centerX" secondItem="x5L-7J-jCa" secondAttribute="centerX" id="FYC-XG-Gpm"/>
+                <constraint firstAttribute="centerX" secondItem="b1j-sY-Ou2" secondAttribute="centerX" id="TmV-II-ZZo"/>
+                <constraint firstItem="8YA-so-gyk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="UNn-tI-YFC"/>
+                <constraint firstItem="O7j-9I-qSg" firstAttribute="top" secondItem="x5L-7J-jCa" secondAttribute="bottom" constant="20" id="WFx-3h-9Xq"/>
+                <constraint firstItem="s95-IJ-JZe" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="WSS-mD-TY9"/>
+                <constraint firstAttribute="centerX" secondItem="O7j-9I-qSg" secondAttribute="centerX" id="c6n-Zf-snV"/>
+                <constraint firstItem="EKh-6e-kYd" firstAttribute="top" secondItem="73K-7o-2Ht" secondAttribute="bottom" constant="10" id="hNn-cf-nL4"/>
+                <constraint firstAttribute="trailing" secondItem="s95-IJ-JZe" secondAttribute="trailing" constant="25" id="jlM-JB-Kq3"/>
+                <constraint firstAttribute="centerY" secondItem="x5L-7J-jCa" secondAttribute="centerY" id="mnR-tp-0GF"/>
+                <constraint firstAttribute="centerX" secondItem="EKh-6e-kYd" secondAttribute="centerX" id="nuN-dx-e81"/>
+                <constraint firstItem="s95-IJ-JZe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="25" id="tew-T8-hud"/>
+                <constraint firstAttribute="centerX" secondItem="73K-7o-2Ht" secondAttribute="centerX" id="tqb-iL-aDK"/>
+                <constraint firstAttribute="trailing" secondItem="b1j-sY-Ou2" secondAttribute="trailing" constant="25" id="tuc-4C-0I4"/>
+                <constraint firstAttribute="centerY" secondItem="b1j-sY-Ou2" secondAttribute="centerY" constant="-11.5" id="utd-qJ-fAh"/>
+                <constraint firstItem="73K-7o-2Ht" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="140" id="yIv-9T-1y8"/>
+                <constraint firstItem="b1j-sY-Ou2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="25" id="zLP-3X-8iQ"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <connections>
+                <outlet property="bgImageView" destination="8YA-so-gyk" id="D7a-c8-xc9"/>
+                <outlet property="downloadImageView" destination="O7j-9I-qSg" id="5CG-VW-AAH"/>
+                <outlet property="imageViewLeadingCons" destination="zLP-3X-8iQ" id="i7e-lx-Z03"/>
+                <outlet property="imageViewTraingCons" destination="tuc-4C-0I4" id="3Mp-Ft-F0W"/>
+                <outlet property="imgView" destination="b1j-sY-Ou2" id="QH9-tQ-CEM"/>
+                <outlet property="titleBgImageView" destination="c2L-dA-YMY" id="TUB-xu-uDM"/>
+                <outlet property="titleImageView" destination="s95-IJ-JZe" id="U5k-ca-m58"/>
+                <outlet property="titleLabel" destination="tjS-cY-alb" id="Nge-LH-L1h"/>
+                <outlet property="xiangkuangAlignYCons" destination="mnR-tp-0GF" id="peY-Xz-25F"/>
+                <outlet property="xiangkuangImageView" destination="x5L-7J-jCa" id="JUP-s9-TQ5"/>
+                <outlet property="zhishuImageView" destination="EKh-6e-kYd" id="YqK-5W-xbN"/>
+            </connections>
+            <point key="canvasLocation" x="782.5" y="483.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="game_bg.png" width="750" height="1334"/>
+        <image name="game_download.png" width="391" height="99"/>
+        <image name="game_menu.png" width="610" height="150"/>
+        <image name="game_titlebg.png" width="269" height="74"/>
+        <image name="game_xiangkuang.png" width="652" height="419"/>
+        <image name="game_zhishu.png" width="340" height="45"/>
+    </resources>
+</document>

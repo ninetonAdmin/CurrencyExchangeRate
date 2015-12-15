@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>CNY</string>
+	<string>USD</string>
+	<string>GBP</string>
+	<string>JPY</string>
+	<string>AUD</string>
+	<string>EUR</string>
+	<string>CAD</string>
+	<string>KRW</string>
+	<string>HKD</string>
+	<string>TWD</string>
+	<string>MOP</string>
+	<string>ARS</string>
+	<string>EGP</string>
+	<string>AED</string>
+	<string>BHD</string>
+	<string>BRL</string>
+	<string>PKR</string>
+	<string>PLN</string>
+	<string>DKK</string>
+	<string>RUB</string>
+	<string>FJD</string>
+	<string>PHP</string>
+	<string>KZT</string>
+	<string>CZK</string>
+	<string>HRK</string>
+	<string>KES</string>
+	<string>KWD</string>
+	<string>QAR</string>
+	<string>MYR</string>
+	<string>MXN</string>
+	<string>PEN</string>
+	<string>NPR</string>
+	<string>NGN</string>
+	<string>NOK</string>
+	<string>ZAR</string>
+	<string>SEK</string>
+	<string>CHF</string>
+	<string>SAR</string>
+	<string>SCR</string>
+	<string>LKR</string>
+	<string>TRY</string>
+	<string>THB</string>
+	<string>BND</string>
+	<string>UAH</string>
+	<string>VND</string>
+	<string>NZD</string>
+	<string>SGD</string>
+	<string>INR</string>
+	<string>IDR</string>
+	<string>ILS</string>
+	<string>JMD</string>
+	<string>CLP</string>
+</array>
+</plist>
